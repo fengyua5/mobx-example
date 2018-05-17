@@ -4,5 +4,5 @@
     "react",
     "stage-0"
   ],
-  "plugins": ["transform-decorators-legacy", "transform-class-properties", "add-module-exports"]
+  "plugins": ["transform-decorators-legacy", "transform-class-properties", "add-module-exports", "transform-runtime"]
 }

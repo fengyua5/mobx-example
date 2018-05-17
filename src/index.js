@@ -6,10 +6,11 @@ import store from './store/index.js';
 import routers from './router.js';
 import {Provider} from 'mobx-react';
 import { Router, browserHistory } from 'react-router';
-import { useStrict } from "mobx";
+import { configure } from "mobx";
 
-
-useStrict(true);
+configure({
+  enforceActions: true
+});
 
 ReactDOM.render(
   <Provider {...store}>
