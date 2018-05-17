@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40cfac87-b3a3-4c36-a95c-e7346eaf2653" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/api/archives.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ResumeCard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ResumeCard/less/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/archives/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/archives/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/archives/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/archives/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/archives/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/archives/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,14 +38,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/archives/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="40">
+              <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -119,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/archives/router.js" />
         <option value="$PROJECT_DIR$/src/components/ResumeCard/index.js" />
         <option value="$PROJECT_DIR$/src/archives/index.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -138,7 +139,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="65" />
     <option name="y" value="24" />
     <option name="width" value="1853" />
@@ -157,11 +158,6 @@
             <path>
               <item name="hello-mobx" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-mobx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello-mobx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello-mobx" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello-mobx" type="b2602c69:ProjectViewProjectNode" />
@@ -247,19 +243,19 @@
       <updated>1518416221669</updated>
       <workItem from="1518416223161" duration="4830000" />
       <workItem from="1526436621811" duration="23652000" />
-      <workItem from="1526518965668" duration="11208000" />
+      <workItem from="1526518965668" duration="11484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39690000" />
+    <option name="totallyTimeSpent" value="39966000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="7" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972737" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972737" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -267,7 +263,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3294979" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -524,11 +520,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/archives/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="40">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
