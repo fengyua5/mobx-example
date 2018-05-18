@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import {inject, observer} from "mobx-react";
 import {toJS} from 'mobx';
 import axios from 'axios'
+import SlideList from '../components/SlideList/index';
+import {Link, Route} from 'react-router-dom';
 
 @inject((store) => {
   return {
@@ -15,7 +17,7 @@ export default class ArchivesIndex extends Component {
     super(props);
   }
 
-  componentDidMount(){
+  componentDidMount() {
     this.props.archives.getFolderListAsync1().then(() => {
       console.log('data is loaded')
     });
@@ -29,15 +31,10 @@ export default class ArchivesIndex extends Component {
 
     // let todos = toJS(archives.todos) || [];
     let todos = archives.todos || [];
-    console.log('archives render');
     // tab选中项
     return (
       <div>
-        archives: {archives.title}
-        <button type="button" onClick={() => {
-          props.changeAtsTitle('ats' + Math.random())
-        }}>changeAtsTitle
-        </button>
+        <Link to='/archives2/2'>detail</Link>
         <ul>
           {
             todos.map((todo) => {
@@ -47,6 +44,17 @@ export default class ArchivesIndex extends Component {
             })
           }
         </ul>
+        <Route
+          path="/archives2/:id"
+          render={(props) => {
+            console.log(111111);
+            return (
+              <SlideList type={archives.type} show="true">
+                <h2>{props.match.params.id}</h2>
+              </SlideList>
+            )
+          }}
+        />
       </div>
     )
   }

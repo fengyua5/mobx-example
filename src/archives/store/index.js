@@ -5,6 +5,9 @@ class Store {
   @observable title = 'this is archives';
   @observable todos = [];
 
+  @observable type = 1;
+
+
   @action changeTodoTitle({index, done}) {
     this.todos[index].done = done
   }
@@ -30,6 +33,10 @@ class Store {
     const response = yield axios.get('/api/archives.json');
     this.todos = response.data.results;
   })
+
+  @action changeType(type) {
+    this.type = type;
+  }
 }
 
 export default new Store();

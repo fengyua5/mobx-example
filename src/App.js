@@ -20,7 +20,6 @@ class App extends Component {
           <Link style={{color: 'black'}} to={'/ats'}>ats</Link>
         </div>
         <div style={{paddingLeft: '300px'}}>
-          {this.props.children}
         </div>
       </div>
     )

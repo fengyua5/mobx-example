@@ -11,7 +11,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dev'),
     filename: '[name].[hash].js',
-    chunkFilename: '[name].[hash].js'
+    chunkFilename: '[name].[hash].js',
+    publicPath: '/'
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -60,6 +61,7 @@ module.exports = {
     watchOptions: {
       aggregateTimeout: 300
     },
+    headers: { "X-Custom-Header": "yes" },
     port: '3000' //设置端口号
   }
 };
