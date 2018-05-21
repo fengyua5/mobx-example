@@ -31,7 +31,7 @@ ReactDOM.render(
           <Route
             path="/(b|c)"
             component={Loadable({
-              loader: () => import('./List/index.js'),
+              loader: () => import('./list/index.js'),
               loading: Loading
             })}
           />

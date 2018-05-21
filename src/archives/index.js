@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {inject, observer} from "mobx-react";
 import {toJS} from 'mobx';
-import axios from 'axios'
 import SlideList from '../components/SlideList/index';
 import {Link, Route} from 'react-router-dom';
 
