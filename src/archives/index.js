@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {inject, observer} from "mobx-react";
 import {toJS} from 'mobx';
-import SlideList from '../components/SlideList/index';
+
 import {Link, Route} from 'react-router-dom';
 
 @inject((store) => {
@@ -33,7 +33,7 @@ export default class ArchivesIndex extends Component {
     // tab选中项
     return (
       <div>
-        <Link to='/archives2/2'>detail</Link>
+        <Link to='/resume/2'>detail</Link>
         <ul>
           {
             todos.map((todo) => {
@@ -43,17 +43,6 @@ export default class ArchivesIndex extends Component {
             })
           }
         </ul>
-        <Route
-          path="/archives2/:id"
-          render={(props) => {
-            console.log(111111);
-            return (
-              <SlideList type={archives.type} show="true">
-                <h2>{props.match.params.id}</h2>
-              </SlideList>
-            )
-          }}
-        />
       </div>
     )
   }

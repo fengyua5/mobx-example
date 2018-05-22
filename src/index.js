@@ -10,6 +10,10 @@ import Loadable from 'react-loadable'
 import Loading from './components/Loading';
 import Header from './components/Header';
 
+import SlideList from './components/SlideList/index';
+
+var pathToRegexp = require('path-to-regexp');
+
 configure({
   enforceActions: true
 });
@@ -20,6 +24,28 @@ const Index = () => {
   )
 };
 
+const dialog1 = (props) => {
+  return (
+    <div>dialog1</div>
+  )
+};
+
+const DialogRoute = ({component, wrapperParams, ...props}) => {
+  let Wrapper = component;
+  return (
+    <Route
+      {...props}
+      render={(props) => {
+        console.log(111111);
+        return (
+          <SlideList type={1} show="true">
+            <Wrapper {...wrapperParams}/>
+          </SlideList>
+        )
+      }}
+    />
+  )
+};
 
 ReactDOM.render(
   <Provider {...store}>
@@ -35,8 +61,12 @@ ReactDOM.render(
               loading: Loading
             })}
           />
+          <DialogRoute
+            path="/resume/:id"
+            component={dialog1}
+          />
           <Route
-            path="/(archives|archives2)"
+            path="/(archives|resume)"
             component={Loadable({
               loader: () => import('./archives/index.js'),
               loading: Loading

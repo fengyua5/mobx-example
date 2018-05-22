@@ -95,7 +95,7 @@ export default class SlideList extends Component {
                   onClick={this.hide}
                 />
               </div>
-              {render(this.props)}
+              {this.props.children}
             </div>
           </div>,
           this.pop
@@ -141,12 +141,6 @@ export default class SlideList extends Component {
       }
     };
 
-    return cloneElement(
-      children,
-      {
-        ...trigger_map[trigger] || {},
-        ...others
-      }
-    );
+    return null;
   }
 }

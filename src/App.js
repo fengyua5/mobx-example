@@ -5,11 +5,14 @@ import {observer, inject} from 'mobx-react';
 import {Link} from 'react-router';
 import Header from './components/Header';
 
+
+
 @observer
 class App extends Component {
   render() {
     console.log('render');
     let store = this.props.todos;
+
     return (
       <div>
         <Header></Header>

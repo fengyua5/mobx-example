@@ -37,6 +37,6 @@
     "react-scripts": "1.1.1"
   },
   "scripts": {
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server --inline --hot --port 3000"
   }
 }
