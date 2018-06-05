@@ -4,5 +4,16 @@
     "react",
     "stage-0"
   ],
-  "plugins": ["transform-decorators-legacy", "transform-class-properties", "add-module-exports", "transform-runtime"]
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-class-properties",
+    "add-module-exports",
+    "transform-runtime",
+    [
+      "import", {
+      "libraryName": "antd",
+      "style": true
+    }
+    ]
+  ]
 }

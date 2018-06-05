@@ -2,6 +2,14 @@ const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+// antd theme
+var existsSync = require('fs').existsSync;
+function resolve(dir) {
+  return path.join(__dirname, './', dir)
+}
+const themePath = resolve('theme.js');
+const theme = existsSync(themePath) ? require(themePath)() : {};
+
 module.exports = {
   context: path.resolve(__dirname, './src'),
   entry: {
@@ -36,7 +44,10 @@ module.exports = {
       }, {
         loader: "css-loader"
       }, {
-        loader: "less-loader"
+        loader: "less-loader",
+        options: {
+          "modifyVars": theme
+        }
       }]
     }, {
       test: /\.(png|jpg|svg)$/,

@@ -3,6 +3,7 @@ import {inject, observer} from "mobx-react";
 import {toJS} from 'mobx';
 
 import {Link, Route} from 'react-router-dom';
+import {Button} from 'antd';
 
 @inject((store) => {
   return {
@@ -43,6 +44,7 @@ export default class ArchivesIndex extends Component {
             })
           }
         </ul>
+        <Button>submit</Button>
       </div>
     )
   }

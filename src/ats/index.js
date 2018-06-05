@@ -3,6 +3,8 @@ import React, {Component} from 'react';
 
 import {observer, inject} from 'mobx-react';
 
+import {Button} from 'antd';
+
 @inject('ats')
 @observer
 export default class ArchivesIndex extends Component {
