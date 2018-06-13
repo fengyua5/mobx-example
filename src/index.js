@@ -12,15 +12,13 @@ import Header from './components/Header';
 
 import SlideList from './components/SlideList/index';
 
-
-
 configure({
   enforceActions: true
 });
 
 const Index = () => {
   return (
-    <div>1ssffs</div>
+    <div>1ssssffs</div>
   )
 };
 
@@ -57,7 +55,7 @@ ReactDOM.render(
             path="/index"
             component={Loadable({
               loader: () => {
-                return import('./list/index.js');
+                return import(/* webpackChunkName: "index" */'./list/index.js');
               },
               loading: Loading
             })}
@@ -65,7 +63,7 @@ ReactDOM.render(
           <Route
             path="/(archives|resume)"
             component={Loadable({
-              loader: () => import('./archives/index.js'),
+              loader: () => import(/* webpackChunkName: "archives" */'./archives/index.js'),
               loading: Loading
             })}
           />

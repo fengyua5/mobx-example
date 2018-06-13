@@ -14,13 +14,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(72);
+var _reactRouterDom = __webpack_require__(68);
 
 var _reactLoadable = __webpack_require__(45);
 
 var _reactLoadable2 = _interopRequireDefault(_reactLoadable);
 
-var _Loading = __webpack_require__(117);
+var _Loading = __webpack_require__(113);
 
 var _Loading2 = _interopRequireDefault(_Loading);
 
@@ -82,8 +82,7 @@ var Lists = function Lists(_ref) {
         },
         loading: _Loading2.default
       })
-    }),
-    'dddddddd'
+    })
   );
 };
 

@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 // antd theme
 var existsSync = require('fs').existsSync;
@@ -18,15 +19,23 @@ module.exports = {
   devtool: false,
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: "[name].[hash].js",
-    publicPath: '.'
+    filename: "[name].[chunkhash].js",
+    chunkFilename: '[name].[chunkhash].js',
+    publicPath: './'
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: '../public/index.html'
     }),
     new webpack.optimize.ModuleConcatenationPlugin(),
-    new webpack.HotModuleReplacementPlugin()
+    new CleanWebpackPlugin(
+      ['dist/*',],　 //匹配删除的文件
+      {
+        root: __dirname,       　　　　　　　　　　//根目录
+        verbose:  true,        　　　　　　　　　　//开启在控制台输出信息
+        dry:      false        　　　　　　　　　　//启用删除文件
+      }
+    )
   ],
 
   module: {
@@ -58,20 +67,5 @@ module.exports = {
         }
       }
     }]
-  },
-  devServer: {
-    historyApiFallback: true,
-    contentBase: "./",
-    quiet: false, //控制台中不输出打包的信息
-    noInfo: false,
-    hot: true, //开启热点
-    inline: true, //开启页面自动刷新
-    lazy: false, //不启动懒加载
-    progress: false, //显示打包的进度
-    watchOptions: {
-      aggregateTimeout: 300
-    },
-    headers: { "X-Custom-Header": "yes" },
-    port: '3000' //设置端口号
   }
 };

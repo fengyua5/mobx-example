@@ -31,11 +31,10 @@ const Lists = ({match}) => (
     <Route
       path={`/c/:id`}
       component={Loadable({
-        loader: () => import('./detail.js'),
+        loader: () => import(/* webpackChunkName: "detail" */'./detail.js'),
         loading: Loading
       })}
     />
-    dddddddd
   </div>
 );
 
