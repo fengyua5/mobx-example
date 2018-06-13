@@ -5,6 +5,28 @@ import {toJS} from 'mobx';
 import {Link, Route} from 'react-router-dom';
 import {Button} from 'antd';
 
+class Name extends Component{
+  constructor(props){
+    super(props);
+  }
+
+  getDerivedStateFromProps(nextProps, prevState){
+    console.log('getDerivedStateFromProps');
+  }
+
+  componentDidUpdate(prevProps, prevState){
+    console.log('name---', this.refs)
+  }
+
+  render(){
+    console.log('render');
+    return (
+      <div>{this.props.name}</div>
+    )
+  }
+}
+
+
 @inject((store) => {
   return {
     archives: store.archives,
@@ -15,12 +37,14 @@ import {Button} from 'antd';
 export default class ArchivesIndex extends Component {
   constructor(props) {
     super(props);
+    this.state
   }
 
   componentDidMount() {
     this.props.archives.getFolderListAsync1().then(() => {
       console.log('data is loaded')
     });
+    console.log('this.refs', this.refs)
   }
 
   render() {
@@ -44,6 +68,10 @@ export default class ArchivesIndex extends Component {
             })
           }
         </ul>
+
+        <Name>
+          <input ref="name" />
+        </Name>
         <Button>submit</Button>
       </div>
     )

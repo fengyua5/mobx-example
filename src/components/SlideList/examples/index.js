@@ -1,5 +1,4 @@
-import './index.scss';
-import '../../../../../../scss/common/base';
+import './index.less';
 
 import React, {Component} from 'react';
 import {render} from 'react-dom';

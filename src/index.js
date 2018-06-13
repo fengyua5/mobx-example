@@ -12,7 +12,7 @@ import Header from './components/Header';
 
 import SlideList from './components/SlideList/index';
 
-var pathToRegexp = require('path-to-regexp');
+
 
 configure({
   enforceActions: true
@@ -20,13 +20,13 @@ configure({
 
 const Index = () => {
   return (
-    <div>Index</div>
+    <div>1ssffs</div>
   )
 };
 
 const dialog1 = (props) => {
   return (
-    <div>dialog1</div>
+    <div>dissalwssww444og1234</div>
   )
 };
 
@@ -36,7 +36,6 @@ const DialogRoute = ({component, wrapperParams, ...props}) => {
     <Route
       {...props}
       render={(props) => {
-        console.log(111111);
         return (
           <SlideList type={1} show="true">
             <Wrapper {...wrapperParams}/>
@@ -55,15 +54,13 @@ ReactDOM.render(
         <div className="ic-content">
           <Route exact path="/" component={Index}/>
           <Route
-            path="/(b|c)"
+            path="/index"
             component={Loadable({
-              loader: () => import('./list/index.js'),
+              loader: () => {
+                return import('./list/index.js');
+              },
               loading: Loading
             })}
-          />
-          <DialogRoute
-            path="/resume/:id"
-            component={dialog1}
           />
           <Route
             path="/(archives|resume)"

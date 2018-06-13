@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<ul id="wrapper">
+    <li class="item">item1</li>
+    <li class="item">item2</li>
+    <li class="item">item3<p>ssssssssss</p></li>
+</ul>
+<button id="button">add</button>
+<script>
+
+    var wrapper = document.getElementById('wrapper');
+    var oBtn = document.getElementById('button');
+    var num = 0;
+    wrapper.onclick = function (e) {
+      console.log(e)
+        if(e.target.className === 'item'){
+          console.log(e.target.nodeName)
+        }
+    };
+
+    oBtn.onclick = function(){
+      num++;
+      var oLi = document.createElement('li');
+      oLi.className = 'item';
+      oLi.innerHTML = 111*num;
+      wrapper.appendChild(oLi);
+    };
+</script>
+</body>
+</html>
