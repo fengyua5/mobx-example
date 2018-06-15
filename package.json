@@ -20,12 +20,14 @@
     "css-loader": "^0.28.8",
     "file-loader": "^1.1.6",
     "hello-world": "0.0.2",
+    "hermes-react": "^1.7.1",
     "html-webpack-inline-source-plugin": "^0.0.10",
     "html-webpack-plugin": "^2.30.1",
     "jquery": "^3.3.1",
     "less": "^2.7.3",
     "less-loader": "^4.0.5",
     "lodash": "^4.17.10",
+    "mkdirp": "^0.5.1",
     "mobx": "^4.2.1",
     "mobx-react": "^5.1.2",
     "path-to-regexp": "^2.2.1",
@@ -46,6 +48,7 @@
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --config webpack.pro.config.js",
-    "dll": "webpack --config webpack.dll.config.js"
+    "dll": "webpack --config webpack.dll.config.js",
+    "add.component": "node ./utils/add-component.js"
   }
 }
