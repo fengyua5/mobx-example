@@ -96,9 +96,6 @@ export default class ArchivesIndex extends Component {
           <FormItem
             className="candidate-phone"
           >
-            {
-
-            }
           </FormItem>
         </Form>
       </div>
