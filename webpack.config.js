@@ -19,7 +19,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: "[name].[hash].js",
-    publicPath: '.'
+    publicPath: '/'
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -61,7 +61,6 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: "./",
     quiet: false, //控制台中不输出打包的信息
     noInfo: false,
     hot: true, //开启热点
@@ -72,6 +71,6 @@ module.exports = {
       aggregateTimeout: 300
     },
     headers: { "X-Custom-Header": "yes" },
-    port: '3000' //设置端口号
+    port: '5000' //设置端口号
   }
 };

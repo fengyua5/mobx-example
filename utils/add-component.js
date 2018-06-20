@@ -4,6 +4,9 @@ const fs = require('fs');
 const colors = require('colors');
 const _ = require('lodash');
 const mkdirp = require('mkdirp');
+const shell = require('shelljs');
+
+shell.grep('--', '-v', 'path/to/file');
 
 const arguments = process.argv.splice(2);
 

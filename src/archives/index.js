@@ -3,7 +3,7 @@ import {inject, observer} from "mobx-react";
 import {toJS} from 'mobx';
 
 import {Link, Route} from 'react-router-dom';
-import {Button} from 'antd';
+import {Button, Form, Input} from 'antd';
 
 class Name extends Component{
   constructor(props){
@@ -26,7 +26,9 @@ class Name extends Component{
   }
 }
 
+const FormItem = Form.Item;
 
+@Form.create()
 @inject((store) => {
   return {
     archives: store.archives,
@@ -55,6 +57,23 @@ export default class ArchivesIndex extends Component {
 
     // let todos = toJS(archives.todos) || [];
     let todos = archives.todos || [];
+
+    const {getFieldDecorator} = this.props.form;
+    const aa = getFieldDecorator(`candidatePhone`, {
+      rules: [{
+        message: '请填写正确手机号'
+      }],
+      initialValue: '12333333334'
+    })(
+      <Input
+        className="phone-input"
+        placeholder="请填写电话号码"
+        onChange={() => {
+          console.log(2)
+        }}
+      />
+    )
+    console.log(aa);
     // tab选中项
     return (
       <div>
@@ -73,6 +92,15 @@ export default class ArchivesIndex extends Component {
           <input ref="name" />
         </Name>
         <Button>submit</Button>
+        <Form>
+          <FormItem
+            className="candidate-phone"
+          >
+            {
+
+            }
+          </FormItem>
+        </Form>
       </div>
     )
   }
