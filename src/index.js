@@ -51,6 +51,12 @@ ReactDOM.render(
         <Header></Header>
         <div className="ic-content">
           <Route exact path="/" component={Index}/>
+          <Route exact path="/app" component={Loadable({
+            loader: () => {
+              return import(/* webpackChunkName: "app" */'./App.js');
+            },
+            loading: Loading
+          })}/>
           <Route
             path="/index"
             component={Loadable({

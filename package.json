@@ -31,6 +31,7 @@
     "mkdirp": "^0.5.1",
     "mobx": "^4.2.1",
     "mobx-react": "^5.1.2",
+    "normalizr": "^3.2.4",
     "path-to-regexp": "^2.2.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
