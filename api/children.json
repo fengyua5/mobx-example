@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "name": "Andy Warhol",
+  "parent": {
+    "id": 7,
+    "name": "Tom Dale",
+    "parent": {
+      "id": 4,
+      "name": "Pete Hunt"
+    }
+  }
+}

@@ -1,0 +1,2645 @@
+{
+  "err_no": 0,
+  "err_msg": "",
+  "results": [
+    {
+      "tid": 1,
+      "parent": 0,
+      "depth": 1,
+      "name": "IT/通信/电子/互联网",
+      "autosub": 0,
+      "child": [
+        {
+          "tid": 2,
+          "parent": 1,
+          "depth": 2,
+          "name": "互联网",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 3,
+              "parent": 2,
+              "depth": 3,
+              "name": "电子商务",
+              "autosub": 0,
+              "child": [
+                {
+                  "tid": 19,
+                  "parent": 3,
+                  "depth": 4,
+                  "name": "B2B",
+                  "autosub": 0
+                },
+                {
+                  "tid": 20,
+                  "parent": 3,
+                  "depth": 4,
+                  "name": "B2C",
+                  "autosub": 0
+                },
+                {
+                  "tid": 21,
+                  "parent": 3,
+                  "depth": 4,
+                  "name": "C2C",
+                  "autosub": 0
+                },
+                {
+                  "tid": 22,
+                  "parent": 3,
+                  "depth": 4,
+                  "name": "生活信息本地化",
+                  "autosub": 0
+                },
+                {
+                  "tid": 23,
+                  "parent": 3,
+                  "depth": 4,
+                  "name": "商旅",
+                  "autosub": 0
+                },
+                {
+                  "tid": 71,
+                  "parent": 3,
+                  "depth": 4,
+                  "name": "团购",
+                  "autosub": 0
+                }
+              ]
+            },
+            {
+              "tid": 4,
+              "parent": 2,
+              "depth": 3,
+              "name": "金融与支付",
+              "autosub": 0,
+              "child": [
+                {
+                  "tid": 24,
+                  "parent": 4,
+                  "depth": 4,
+                  "name": "第三方支付",
+                  "autosub": 0
+                },
+                {
+                  "tid": 472,
+                  "parent": 4,
+                  "depth": 4,
+                  "name": "P2P网贷",
+                  "autosub": 0
+                },
+                {
+                  "tid": 473,
+                  "parent": 4,
+                  "depth": 4,
+                  "name": "互联网理财",
+                  "autosub": 0
+                }
+              ]
+            },
+            {
+              "tid": 5,
+              "parent": 2,
+              "depth": 3,
+              "name": "网络游戏",
+              "autosub": 0,
+              "child": [
+                {
+                  "tid": 26,
+                  "parent": 5,
+                  "depth": 4,
+                  "name": "客户端游戏",
+                  "autosub": 0
+                },
+                {
+                  "tid": 27,
+                  "parent": 5,
+                  "depth": 4,
+                  "name": "网页游戏",
+                  "autosub": 0
+                },
+                {
+                  "tid": 28,
+                  "parent": 5,
+                  "depth": 4,
+                  "name": "手机游戏",
+                  "autosub": 0
+                }
+              ]
+            },
+            {
+              "tid": 6,
+              "parent": 2,
+              "depth": 3,
+              "name": "社交网络平台",
+              "autosub": 0,
+              "child": [
+                {
+                  "tid": 29,
+                  "parent": 6,
+                  "depth": 4,
+                  "name": "微博",
+                  "autosub": 0
+                },
+                {
+                  "tid": 30,
+                  "parent": 6,
+                  "depth": 4,
+                  "name": "社交网站",
+                  "autosub": 0
+                },
+                {
+                  "tid": 474,
+                  "parent": 6,
+                  "depth": 4,
+                  "name": "婚恋",
+                  "autosub": 0
+                }
+              ]
+            },
+            {
+              "tid": 7,
+              "parent": 2,
+              "depth": 3,
+              "name": "视频音乐",
+              "autosub": 0,
+              "child": [
+                {
+                  "tid": 31,
+                  "parent": 7,
+                  "depth": 4,
+                  "name": "在线视频",
+                  "autosub": 0
+                },
+                {
+                  "tid": 32,
+                  "parent": 7,
+                  "depth": 4,
+                  "name": "在线音乐",
+                  "autosub": 0
+                }
+              ]
+            },
+            {
+              "tid": 9,
+              "parent": 2,
+              "depth": 3,
+              "name": "安全",
+              "autosub": 0,
+              "child": [
+                {
+                  "tid": 35,
+                  "parent": 9,
+                  "depth": 4,
+                  "name": "企业安全",
+                  "autosub": 0
+                },
+                {
+                  "tid": 36,
+                  "parent": 9,
+                  "depth": 4,
+                  "name": "个人安全",
+                  "autosub": 0
+                }
+              ]
+            },
+            {
+              "tid": 10,
+              "parent": 2,
+              "depth": 3,
+              "name": "云计算",
+              "autosub": 0,
+              "child": [
+                {
+                  "tid": 37,
+                  "parent": 10,
+                  "depth": 4,
+                  "name": "企业级云服务",
+                  "autosub": 0
+                },
+                {
+                  "tid": 38,
+                  "parent": 10,
+                  "depth": 4,
+                  "name": "个人级云服务",
+                  "autosub": 0
+                },
+                {
+                  "tid": 476,
+                  "parent": 10,
+                  "depth": 4,
+                  "name": "虚拟化",
+                  "autosub": 0
+                }
+              ]
+            },
+            {
+              "tid": 12,
+              "parent": 2,
+              "depth": 3,
+              "name": "工具类客户端应用",
+              "autosub": 0,
+              "child": [
+                {
+                  "tid": 43,
+                  "parent": 12,
+                  "depth": 4,
+                  "name": "输入法",
+                  "autosub": 0
+                },
+                {
+                  "tid": 44,
+                  "parent": 12,
+                  "depth": 4,
+                  "name": "浏览器",
+                  "autosub": 0
+                },
+                {
+                  "tid": 45,
+                  "parent": 12,
+                  "depth": 4,
+                  "name": "词典",
+                  "autosub": 0
+                },
+                {
+                  "tid": 46,
+                  "parent": 12,
+                  "depth": 4,
+                  "name": "播放器",
+                  "autosub": 0
+                },
+                {
+                  "tid": 47,
+                  "parent": 12,
+                  "depth": 4,
+                  "name": "下载器",
+                  "autosub": 0
+                },
+                {
+                  "tid": 48,
+                  "parent": 12,
+                  "depth": 4,
+                  "name": "IM",
+                  "autosub": 0
+                },
+                {
+                  "tid": 477,
+                  "parent": 12,
+                  "depth": 4,
+                  "name": "邮箱",
+                  "autosub": 0
+                }
+              ]
+            },
+            {
+              "tid": 13,
+              "parent": 2,
+              "depth": 3,
+              "name": "互联网广告",
+              "autosub": 0,
+              "child": [
+                {
+                  "tid": 49,
+                  "parent": 13,
+                  "depth": 4,
+                  "name": "广告服务",
+                  "autosub": 0
+                },
+                {
+                  "tid": 50,
+                  "parent": 13,
+                  "depth": 4,
+                  "name": "第三方广告网络平台",
+                  "autosub": 0
+                },
+                {
+                  "tid": 51,
+                  "parent": 13,
+                  "depth": 4,
+                  "name": "媒体代理",
+                  "autosub": 0
+                },
+                {
+                  "tid": 52,
+                  "parent": 13,
+                  "depth": 4,
+                  "name": "创意代理",
+                  "autosub": 0
+                }
+              ]
+            },
+            {
+              "tid": 14,
+              "parent": 2,
+              "depth": 3,
+              "name": "企业互联网服务",
+              "autosub": 0,
+              "child": [
+                {
+                  "tid": 478,
+                  "parent": 14,
+                  "depth": 4,
+                  "name": "商业智能",
+                  "autosub": 0
+                },
+                {
+                  "tid": 479,
+                  "parent": 14,
+                  "depth": 4,
+                  "name": "企业建站",
+                  "autosub": 0
+                },
+                {
+                  "tid": 480,
+                  "parent": 14,
+                  "depth": 4,
+                  "name": "安防",
+                  "autosub": 0
+                }
+              ]
+            },
+            {
+              "tid": 16,
+              "parent": 2,
+              "depth": 3,
+              "name": "在线教育",
+              "autosub": 0
+            },
+            {
+              "tid": 17,
+              "parent": 2,
+              "depth": 3,
+              "name": "在线医疗",
+              "autosub": 0
+            },
+            {
+              "tid": 72,
+              "parent": 2,
+              "depth": 3,
+              "name": "地图",
+              "autosub": 0
+            },
+            {
+              "tid": 73,
+              "parent": 2,
+              "depth": 3,
+              "name": "数据存储",
+              "autosub": 0
+            },
+            {
+              "tid": 481,
+              "parent": 2,
+              "depth": 3,
+              "name": "网络营销",
+              "autosub": 0,
+              "child": [
+                {
+                  "tid": 493,
+                  "parent": 481,
+                  "depth": 4,
+                  "name": "移动营销",
+                  "autosub": 0
+                },
+                {
+                  "tid": 494,
+                  "parent": 481,
+                  "depth": 4,
+                  "name": "微博营销",
+                  "autosub": 0
+                },
+                {
+                  "tid": 495,
+                  "parent": 481,
+                  "depth": 4,
+                  "name": "精准营销",
+                  "autosub": 0
+                },
+                {
+                  "tid": 496,
+                  "parent": 481,
+                  "depth": 4,
+                  "name": "海外营销",
+                  "autosub": 0
+                },
+                {
+                  "tid": 497,
+                  "parent": 481,
+                  "depth": 4,
+                  "name": "微信营销",
+                  "autosub": 0
+                }
+              ]
+            },
+            {
+              "tid": 487,
+              "parent": 2,
+              "depth": 3,
+              "name": "智能终端",
+              "autosub": 0,
+              "child": [
+                {
+                  "tid": 498,
+                  "parent": 487,
+                  "depth": 4,
+                  "name": "智能手机",
+                  "autosub": 0
+                },
+                {
+                  "tid": 499,
+                  "parent": 487,
+                  "depth": 4,
+                  "name": "可穿戴设备",
+                  "autosub": 0
+                },
+                {
+                  "tid": 500,
+                  "parent": 487,
+                  "depth": 4,
+                  "name": "智能电视",
+                  "autosub": 0
+                }
+              ]
+            },
+            {
+              "tid": 488,
+              "parent": 2,
+              "depth": 3,
+              "name": "移动互联网",
+              "autosub": 0,
+              "child": [
+                {
+                  "tid": 501,
+                  "parent": 488,
+                  "depth": 4,
+                  "name": "WAP",
+                  "autosub": 0
+                }
+              ]
+            },
+            {
+              "tid": 489,
+              "parent": 2,
+              "depth": 3,
+              "name": "数字城市",
+              "autosub": 0,
+              "child": [
+                {
+                  "tid": 502,
+                  "parent": 489,
+                  "depth": 4,
+                  "name": "物联网",
+                  "autosub": 0
+                },
+                {
+                  "tid": 503,
+                  "parent": 489,
+                  "depth": 4,
+                  "name": "O2O",
+                  "autosub": 0
+                },
+                {
+                  "tid": 504,
+                  "parent": 489,
+                  "depth": 4,
+                  "name": "数字出版",
+                  "autosub": 0
+                }
+              ]
+            },
+            {
+              "tid": 490,
+              "parent": 2,
+              "depth": 3,
+              "name": "大数据",
+              "autosub": 0
+            },
+            {
+              "tid": 491,
+              "parent": 2,
+              "depth": 3,
+              "name": "互联网人力资源",
+              "autosub": 0
+            },
+            {
+              "tid": 492,
+              "parent": 2,
+              "depth": 3,
+              "name": "舆情监控",
+              "autosub": 0
+            },
+            {
+              "tid": 505,
+              "parent": 2,
+              "depth": 3,
+              "name": "搜索",
+              "autosub": 0,
+              "child": [
+                {
+                  "tid": 506,
+                  "parent": 505,
+                  "depth": 4,
+                  "name": "垂直搜索",
+                  "autosub": 0
+                },
+                {
+                  "tid": 507,
+                  "parent": 505,
+                  "depth": 4,
+                  "name": "无线搜索",
+                  "autosub": 0
+                },
+                {
+                  "tid": 508,
+                  "parent": 505,
+                  "depth": 4,
+                  "name": "网页搜索",
+                  "autosub": 0
+                }
+              ]
+            },
+            {
+              "tid": 509,
+              "parent": 2,
+              "depth": 3,
+              "name": "网址导航",
+              "autosub": 0
+            },
+            {
+              "tid": 510,
+              "parent": 2,
+              "depth": 3,
+              "name": "门户",
+              "autosub": 0
+            },
+            {
+              "tid": 511,
+              "parent": 2,
+              "depth": 3,
+              "name": "网络文学",
+              "autosub": 0
+            },
+            {
+              "tid": 512,
+              "parent": 2,
+              "depth": 3,
+              "name": "自媒体",
+              "autosub": 0
+            }
+          ]
+        },
+        {
+          "tid": 53,
+          "parent": 1,
+          "depth": 2,
+          "name": "IT-综合",
+          "autosub": 1
+        },
+        {
+          "tid": 414,
+          "parent": 1,
+          "depth": 2,
+          "name": "计算机软件",
+          "autosub": 0
+        },
+        {
+          "tid": 415,
+          "parent": 1,
+          "depth": 2,
+          "name": "计算机硬件",
+          "autosub": 0
+        },
+        {
+          "tid": 416,
+          "parent": 1,
+          "depth": 2,
+          "name": "计算机服务(系统、数据服务、维修)",
+          "autosub": 0
+        },
+        {
+          "tid": 417,
+          "parent": 1,
+          "depth": 2,
+          "name": "通信/电信/网络设备",
+          "autosub": 0
+        },
+        {
+          "tid": 418,
+          "parent": 1,
+          "depth": 2,
+          "name": "通信/电信运营、增值服务",
+          "autosub": 0
+        },
+        {
+          "tid": 419,
+          "parent": 1,
+          "depth": 2,
+          "name": "电子技术/半导体/集成电路",
+          "autosub": 0
+        }
+      ]
+    },
+    {
+      "tid": 513,
+      "parent": 0,
+      "depth": 1,
+      "name": "金融",
+      "autosub": 0,
+      "child": [
+        {
+          "tid": 537,
+          "parent": 513,
+          "depth": 2,
+          "name": "银行",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 693,
+              "parent": 537,
+              "depth": 3,
+              "name": "个人银行",
+              "autosub": 0
+            },
+            {
+              "tid": 695,
+              "parent": 537,
+              "depth": 3,
+              "name": "私人银行",
+              "autosub": 0
+            },
+            {
+              "tid": 696,
+              "parent": 537,
+              "depth": 3,
+              "name": "公司银行",
+              "autosub": 0
+            },
+            {
+              "tid": 697,
+              "parent": 537,
+              "depth": 3,
+              "name": "投资银行",
+              "autosub": 0
+            },
+            {
+              "tid": 698,
+              "parent": 537,
+              "depth": 3,
+              "name": "政策性银行",
+              "autosub": 0
+            },
+            {
+              "tid": 699,
+              "parent": 537,
+              "depth": 3,
+              "name": "中央银行",
+              "autosub": 0
+            }
+          ]
+        },
+        {
+          "tid": 538,
+          "parent": 513,
+          "depth": 2,
+          "name": "保险",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 700,
+              "parent": 538,
+              "depth": 3,
+              "name": "人寿险",
+              "autosub": 0
+            },
+            {
+              "tid": 701,
+              "parent": 538,
+              "depth": 3,
+              "name": "财产险",
+              "autosub": 0
+            },
+            {
+              "tid": 702,
+              "parent": 538,
+              "depth": 3,
+              "name": "再保险",
+              "autosub": 0
+            },
+            {
+              "tid": 703,
+              "parent": 538,
+              "depth": 3,
+              "name": "养老险",
+              "autosub": 0
+            },
+            {
+              "tid": 704,
+              "parent": 538,
+              "depth": 3,
+              "name": "保险代理公司",
+              "autosub": 0
+            }
+          ]
+        },
+        {
+          "tid": 539,
+          "parent": 513,
+          "depth": 2,
+          "name": "证券",
+          "autosub": 0
+        },
+        {
+          "tid": 540,
+          "parent": 513,
+          "depth": 2,
+          "name": "基金",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 705,
+              "parent": 540,
+              "depth": 3,
+              "name": "公募基金",
+              "autosub": 0
+            },
+            {
+              "tid": 707,
+              "parent": 540,
+              "depth": 3,
+              "name": "私募基金",
+              "autosub": 0
+            }
+          ]
+        },
+        {
+          "tid": 541,
+          "parent": 513,
+          "depth": 2,
+          "name": "信托",
+          "autosub": 0
+        },
+        {
+          "tid": 542,
+          "parent": 513,
+          "depth": 2,
+          "name": "担保",
+          "autosub": 0
+        },
+        {
+          "tid": 543,
+          "parent": 513,
+          "depth": 2,
+          "name": "典当",
+          "autosub": 0
+        },
+        {
+          "tid": 544,
+          "parent": 513,
+          "depth": 2,
+          "name": "拍卖",
+          "autosub": 0
+        },
+        {
+          "tid": 545,
+          "parent": 513,
+          "depth": 2,
+          "name": "投资",
+          "autosub": 0
+        },
+        {
+          "tid": 546,
+          "parent": 513,
+          "depth": 2,
+          "name": "期货",
+          "autosub": 0
+        },
+        {
+          "tid": 678,
+          "parent": 513,
+          "depth": 2,
+          "name": "资产管理",
+          "autosub": 0
+        },
+        {
+          "tid": 679,
+          "parent": 513,
+          "depth": 2,
+          "name": "金融租赁",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 708,
+              "parent": 679,
+              "depth": 3,
+              "name": "第三方理财",
+              "autosub": 0
+            },
+            {
+              "tid": 709,
+              "parent": 679,
+              "depth": 3,
+              "name": "资产管理公司",
+              "autosub": 0
+            }
+          ]
+        },
+        {
+          "tid": 680,
+          "parent": 513,
+          "depth": 2,
+          "name": "征信及信评机构",
+          "autosub": 0
+        },
+        {
+          "tid": 681,
+          "parent": 513,
+          "depth": 2,
+          "name": "资产评估机构",
+          "autosub": 0
+        },
+        {
+          "tid": 683,
+          "parent": 513,
+          "depth": 2,
+          "name": "金融监管机构",
+          "autosub": 0
+        }
+      ]
+    },
+    {
+      "tid": 514,
+      "parent": 0,
+      "depth": 1,
+      "name": "建筑与房地产",
+      "autosub": 0,
+      "child": [
+        {
+          "tid": 547,
+          "parent": 514,
+          "depth": 2,
+          "name": "房地产开发",
+          "autosub": 0
+        },
+        {
+          "tid": 548,
+          "parent": 514,
+          "depth": 2,
+          "name": "工程施工",
+          "autosub": 0
+        },
+        {
+          "tid": 549,
+          "parent": 514,
+          "depth": 2,
+          "name": "建筑设计",
+          "autosub": 0
+        },
+        {
+          "tid": 550,
+          "parent": 514,
+          "depth": 2,
+          "name": "房地产代理",
+          "autosub": 0
+        },
+        {
+          "tid": 551,
+          "parent": 514,
+          "depth": 2,
+          "name": "物业管理",
+          "autosub": 0
+        },
+        {
+          "tid": 552,
+          "parent": 514,
+          "depth": 2,
+          "name": "室内设计",
+          "autosub": 0
+        },
+        {
+          "tid": 553,
+          "parent": 514,
+          "depth": 2,
+          "name": "装修装潢",
+          "autosub": 0
+        },
+        {
+          "tid": 554,
+          "parent": 514,
+          "depth": 2,
+          "name": "市政工程",
+          "autosub": 0
+        },
+        {
+          "tid": 555,
+          "parent": 514,
+          "depth": 2,
+          "name": "工程造价",
+          "autosub": 0
+        },
+        {
+          "tid": 556,
+          "parent": 514,
+          "depth": 2,
+          "name": "工程监理",
+          "autosub": 0
+        },
+        {
+          "tid": 557,
+          "parent": 514,
+          "depth": 2,
+          "name": "环境工程",
+          "autosub": 0
+        },
+        {
+          "tid": 558,
+          "parent": 514,
+          "depth": 2,
+          "name": "园林景观",
+          "autosub": 0
+        }
+      ]
+    },
+    {
+      "tid": 515,
+      "parent": 0,
+      "depth": 1,
+      "name": "专业服务",
+      "autosub": 0,
+      "child": [
+        {
+          "tid": 559,
+          "parent": 515,
+          "depth": 2,
+          "name": "法律",
+          "autosub": 0
+        },
+        {
+          "tid": 561,
+          "parent": 515,
+          "depth": 2,
+          "name": "会计",
+          "autosub": 0
+        },
+        {
+          "tid": 562,
+          "parent": 515,
+          "depth": 2,
+          "name": "审计",
+          "autosub": 0
+        },
+        {
+          "tid": 563,
+          "parent": 515,
+          "depth": 2,
+          "name": "检测认证",
+          "autosub": 0
+        },
+        {
+          "tid": 565,
+          "parent": 515,
+          "depth": 2,
+          "name": "翻译",
+          "autosub": 0
+        },
+        {
+          "tid": 566,
+          "parent": 515,
+          "depth": 2,
+          "name": "中介",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 711,
+              "parent": 566,
+              "depth": 3,
+              "name": "房产中介",
+              "autosub": 0
+            },
+            {
+              "tid": 712,
+              "parent": 566,
+              "depth": 3,
+              "name": "职业中介",
+              "autosub": 0
+            },
+            {
+              "tid": 713,
+              "parent": 566,
+              "depth": 3,
+              "name": "婚姻中介",
+              "autosub": 0
+            }
+          ]
+        },
+        {
+          "tid": 567,
+          "parent": 515,
+          "depth": 2,
+          "name": "咨询",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 714,
+              "parent": 567,
+              "depth": 3,
+              "name": "战略咨询",
+              "autosub": 0
+            },
+            {
+              "tid": 715,
+              "parent": 567,
+              "depth": 3,
+              "name": "投资咨询",
+              "autosub": 0
+            },
+            {
+              "tid": 716,
+              "parent": 567,
+              "depth": 3,
+              "name": "心理咨询",
+              "autosub": 0
+            },
+            {
+              "tid": 717,
+              "parent": 567,
+              "depth": 3,
+              "name": "留学移民咨询",
+              "autosub": 0
+            }
+          ]
+        },
+        {
+          "tid": 568,
+          "parent": 515,
+          "depth": 2,
+          "name": "外包服务",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 718,
+              "parent": 568,
+              "depth": 3,
+              "name": "工商注册代理",
+              "autosub": 0
+            },
+            {
+              "tid": 719,
+              "parent": 568,
+              "depth": 3,
+              "name": "商标专利代理",
+              "autosub": 0
+            },
+            {
+              "tid": 720,
+              "parent": 568,
+              "depth": 3,
+              "name": "财务代理",
+              "autosub": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tid": 516,
+      "parent": 0,
+      "depth": 1,
+      "name": "教育培训",
+      "autosub": 0,
+      "child": [
+        {
+          "tid": 569,
+          "parent": 516,
+          "depth": 2,
+          "name": "家教",
+          "autosub": 0
+        },
+        {
+          "tid": 570,
+          "parent": 516,
+          "depth": 2,
+          "name": "早教",
+          "autosub": 0
+        },
+        {
+          "tid": 571,
+          "parent": 516,
+          "depth": 2,
+          "name": "职业技能培训",
+          "autosub": 0
+        },
+        {
+          "tid": 572,
+          "parent": 516,
+          "depth": 2,
+          "name": "外语培训",
+          "autosub": 0
+        },
+        {
+          "tid": 573,
+          "parent": 516,
+          "depth": 2,
+          "name": "设计培训",
+          "autosub": 0
+        },
+        {
+          "tid": 574,
+          "parent": 516,
+          "depth": 2,
+          "name": "IT培训",
+          "autosub": 0
+        },
+        {
+          "tid": 575,
+          "parent": 516,
+          "depth": 2,
+          "name": "文艺体育培训",
+          "autosub": 0
+        },
+        {
+          "tid": 576,
+          "parent": 516,
+          "depth": 2,
+          "name": "学历教育",
+          "autosub": 0
+        },
+        {
+          "tid": 577,
+          "parent": 516,
+          "depth": 2,
+          "name": "管理培训",
+          "autosub": 0
+        },
+        {
+          "tid": 578,
+          "parent": 516,
+          "depth": 2,
+          "name": "民办基础教育",
+          "autosub": 0
+        }
+      ]
+    },
+    {
+      "tid": 517,
+      "parent": 0,
+      "depth": 1,
+      "name": "文化传媒",
+      "autosub": 0,
+      "child": [
+        {
+          "tid": 579,
+          "parent": 517,
+          "depth": 2,
+          "name": "广告",
+          "autosub": 0
+        },
+        {
+          "tid": 580,
+          "parent": 517,
+          "depth": 2,
+          "name": "媒体",
+          "autosub": 0
+        },
+        {
+          "tid": 581,
+          "parent": 517,
+          "depth": 2,
+          "name": "会展",
+          "autosub": 0
+        },
+        {
+          "tid": 582,
+          "parent": 517,
+          "depth": 2,
+          "name": "公关",
+          "autosub": 0
+        },
+        {
+          "tid": 583,
+          "parent": 517,
+          "depth": 2,
+          "name": "影视",
+          "autosub": 0
+        },
+        {
+          "tid": 584,
+          "parent": 517,
+          "depth": 2,
+          "name": "艺术",
+          "autosub": 0
+        },
+        {
+          "tid": 585,
+          "parent": 517,
+          "depth": 2,
+          "name": "文化传播",
+          "autosub": 0
+        },
+        {
+          "tid": 586,
+          "parent": 517,
+          "depth": 2,
+          "name": "娱乐",
+          "autosub": 0
+        },
+        {
+          "tid": 587,
+          "parent": 517,
+          "depth": 2,
+          "name": "体育",
+          "autosub": 0
+        },
+        {
+          "tid": 588,
+          "parent": 517,
+          "depth": 2,
+          "name": "出版",
+          "autosub": 0
+        },
+        {
+          "tid": 589,
+          "parent": 517,
+          "depth": 2,
+          "name": "休闲",
+          "autosub": 0
+        },
+        {
+          "tid": 590,
+          "parent": 517,
+          "depth": 2,
+          "name": "动漫",
+          "autosub": 0
+        },
+        {
+          "tid": 591,
+          "parent": 517,
+          "depth": 2,
+          "name": "市场推广",
+          "autosub": 0
+        },
+        {
+          "tid": 592,
+          "parent": 517,
+          "depth": 2,
+          "name": "市场研究",
+          "autosub": 0
+        }
+      ]
+    },
+    {
+      "tid": 518,
+      "parent": 0,
+      "depth": 1,
+      "name": "消费品",
+      "autosub": 0,
+      "child": [
+        {
+          "tid": 593,
+          "parent": 518,
+          "depth": 2,
+          "name": "食品",
+          "autosub": 0
+        },
+        {
+          "tid": 594,
+          "parent": 518,
+          "depth": 2,
+          "name": "饮料",
+          "autosub": 0
+        },
+        {
+          "tid": 595,
+          "parent": 518,
+          "depth": 2,
+          "name": "烟草",
+          "autosub": 0
+        },
+        {
+          "tid": 596,
+          "parent": 518,
+          "depth": 2,
+          "name": "酒品",
+          "autosub": 0
+        },
+        {
+          "tid": 597,
+          "parent": 518,
+          "depth": 2,
+          "name": "服饰",
+          "autosub": 0
+        },
+        {
+          "tid": 598,
+          "parent": 518,
+          "depth": 2,
+          "name": "纺织",
+          "autosub": 0
+        },
+        {
+          "tid": 599,
+          "parent": 518,
+          "depth": 2,
+          "name": "化妆品",
+          "autosub": 0
+        },
+        {
+          "tid": 600,
+          "parent": 518,
+          "depth": 2,
+          "name": "日用品",
+          "autosub": 0
+        },
+        {
+          "tid": 601,
+          "parent": 518,
+          "depth": 2,
+          "name": "家电",
+          "autosub": 0
+        },
+        {
+          "tid": 602,
+          "parent": 518,
+          "depth": 2,
+          "name": "家具",
+          "autosub": 0
+        },
+        {
+          "tid": 603,
+          "parent": 518,
+          "depth": 2,
+          "name": "办公用品",
+          "autosub": 0
+        },
+        {
+          "tid": 604,
+          "parent": 518,
+          "depth": 2,
+          "name": "奢侈品",
+          "autosub": 0
+        },
+        {
+          "tid": 605,
+          "parent": 518,
+          "depth": 2,
+          "name": "珠宝",
+          "autosub": 0
+        },
+        {
+          "tid": 606,
+          "parent": 518,
+          "depth": 2,
+          "name": "数码产品",
+          "autosub": 0
+        },
+        {
+          "tid": 607,
+          "parent": 518,
+          "depth": 2,
+          "name": "玩具",
+          "autosub": 0
+        },
+        {
+          "tid": 608,
+          "parent": 518,
+          "depth": 2,
+          "name": "图书",
+          "autosub": 0
+        },
+        {
+          "tid": 609,
+          "parent": 518,
+          "depth": 2,
+          "name": "音像",
+          "autosub": 0
+        },
+        {
+          "tid": 610,
+          "parent": 518,
+          "depth": 2,
+          "name": "钟表",
+          "autosub": 0
+        },
+        {
+          "tid": 611,
+          "parent": 518,
+          "depth": 2,
+          "name": "箱包",
+          "autosub": 0
+        },
+        {
+          "tid": 612,
+          "parent": 518,
+          "depth": 2,
+          "name": "母婴",
+          "autosub": 0
+        },
+        {
+          "tid": 613,
+          "parent": 518,
+          "depth": 2,
+          "name": "营养保健",
+          "autosub": 0
+        },
+        {
+          "tid": 614,
+          "parent": 518,
+          "depth": 2,
+          "name": "户外用品",
+          "autosub": 0
+        },
+        {
+          "tid": 615,
+          "parent": 518,
+          "depth": 2,
+          "name": "健身器材",
+          "autosub": 0
+        },
+        {
+          "tid": 616,
+          "parent": 518,
+          "depth": 2,
+          "name": "乐器",
+          "autosub": 0
+        },
+        {
+          "tid": 617,
+          "parent": 518,
+          "depth": 2,
+          "name": "汽车用品",
+          "autosub": 0
+        },
+        {
+          "tid": 619,
+          "parent": 518,
+          "depth": 2,
+          "name": "厨具",
+          "autosub": 0
+        }
+      ]
+    },
+    {
+      "tid": 519,
+      "parent": 0,
+      "depth": 1,
+      "name": "工业",
+      "autosub": 0,
+      "child": [
+        {
+          "tid": 620,
+          "parent": 519,
+          "depth": 2,
+          "name": "机械制造",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 721,
+              "parent": 620,
+              "depth": 3,
+              "name": "工程机械",
+              "autosub": 0
+            },
+            {
+              "tid": 722,
+              "parent": 620,
+              "depth": 3,
+              "name": "农业机械",
+              "autosub": 0
+            },
+            {
+              "tid": 723,
+              "parent": 620,
+              "depth": 3,
+              "name": "海工设备",
+              "autosub": 0
+            },
+            {
+              "tid": 724,
+              "parent": 620,
+              "depth": 3,
+              "name": "包装机械",
+              "autosub": 0
+            },
+            {
+              "tid": 725,
+              "parent": 620,
+              "depth": 3,
+              "name": "印刷机械",
+              "autosub": 0
+            },
+            {
+              "tid": 726,
+              "parent": 620,
+              "depth": 3,
+              "name": "数控机床",
+              "autosub": 0
+            },
+            {
+              "tid": 727,
+              "parent": 620,
+              "depth": 3,
+              "name": "矿山机械",
+              "autosub": 0
+            }
+          ]
+        },
+        {
+          "tid": 621,
+          "parent": 519,
+          "depth": 2,
+          "name": "流体控制",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 728,
+              "parent": 621,
+              "depth": 3,
+              "name": "水泵",
+              "autosub": 0
+            },
+            {
+              "tid": 729,
+              "parent": 621,
+              "depth": 3,
+              "name": "管道",
+              "autosub": 0
+            },
+            {
+              "tid": 730,
+              "parent": 621,
+              "depth": 3,
+              "name": "阀门",
+              "autosub": 0
+            },
+            {
+              "tid": 732,
+              "parent": 621,
+              "depth": 3,
+              "name": "压缩机",
+              "autosub": 0
+            }
+          ]
+        },
+        {
+          "tid": 622,
+          "parent": 519,
+          "depth": 2,
+          "name": "自动化控制",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 733,
+              "parent": 622,
+              "depth": 3,
+              "name": "集散控制系统",
+              "autosub": 0
+            },
+            {
+              "tid": 734,
+              "parent": 622,
+              "depth": 3,
+              "name": "远程控制",
+              "autosub": 0
+            },
+            {
+              "tid": 735,
+              "parent": 622,
+              "depth": 3,
+              "name": "液压系统",
+              "autosub": 0
+            },
+            {
+              "tid": 736,
+              "parent": 622,
+              "depth": 3,
+              "name": "楼宇智能化",
+              "autosub": 0
+            }
+          ]
+        },
+        {
+          "tid": 623,
+          "parent": 519,
+          "depth": 2,
+          "name": "仪器仪表",
+          "autosub": 0
+        },
+        {
+          "tid": 624,
+          "parent": 519,
+          "depth": 2,
+          "name": "航空/航天",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 737,
+              "parent": 624,
+              "depth": 3,
+              "name": "飞机制造",
+              "autosub": 0
+            },
+            {
+              "tid": 738,
+              "parent": 624,
+              "depth": 3,
+              "name": "航空公司",
+              "autosub": 0
+            },
+            {
+              "tid": 739,
+              "parent": 624,
+              "depth": 3,
+              "name": "发动机",
+              "autosub": 0
+            },
+            {
+              "tid": 740,
+              "parent": 624,
+              "depth": 3,
+              "name": "复合材料",
+              "autosub": 0
+            }
+          ]
+        },
+        {
+          "tid": 625,
+          "parent": 519,
+          "depth": 2,
+          "name": "交通设施",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 741,
+              "parent": 625,
+              "depth": 3,
+              "name": "高铁",
+              "autosub": 0
+            },
+            {
+              "tid": 742,
+              "parent": 625,
+              "depth": 3,
+              "name": "地铁",
+              "autosub": 0
+            },
+            {
+              "tid": 743,
+              "parent": 625,
+              "depth": 3,
+              "name": "信号传输",
+              "autosub": 0
+            }
+          ]
+        },
+        {
+          "tid": 626,
+          "parent": 519,
+          "depth": 2,
+          "name": "工业电子",
+          "autosub": 0
+        },
+        {
+          "tid": 627,
+          "parent": 519,
+          "depth": 2,
+          "name": "建材",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 745,
+              "parent": 627,
+              "depth": 3,
+              "name": "结构材料",
+              "autosub": 0
+            },
+            {
+              "tid": 746,
+              "parent": 627,
+              "depth": 3,
+              "name": "装饰材料",
+              "autosub": 0
+            },
+            {
+              "tid": 747,
+              "parent": 627,
+              "depth": 3,
+              "name": "专用材料",
+              "autosub": 0
+            }
+          ]
+        },
+        {
+          "tid": 628,
+          "parent": 519,
+          "depth": 2,
+          "name": "五金材料",
+          "autosub": 0
+        },
+        {
+          "tid": 629,
+          "parent": 519,
+          "depth": 2,
+          "name": "汽车",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 749,
+              "parent": 629,
+              "depth": 3,
+              "name": "经销商集团",
+              "autosub": 0
+            },
+            {
+              "tid": 750,
+              "parent": 629,
+              "depth": 3,
+              "name": "整车制造",
+              "autosub": 0
+            },
+            {
+              "tid": 751,
+              "parent": 629,
+              "depth": 3,
+              "name": "汽车零配件",
+              "autosub": 0
+            },
+            {
+              "tid": 752,
+              "parent": 629,
+              "depth": 3,
+              "name": "外型设计",
+              "autosub": 0
+            }
+          ]
+        },
+        {
+          "tid": 630,
+          "parent": 519,
+          "depth": 2,
+          "name": "印刷",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 753,
+              "parent": 630,
+              "depth": 3,
+              "name": "平版印刷",
+              "autosub": 0
+            },
+            {
+              "tid": 754,
+              "parent": 630,
+              "depth": 3,
+              "name": "凸版印刷",
+              "autosub": 0
+            },
+            {
+              "tid": 755,
+              "parent": 630,
+              "depth": 3,
+              "name": "凹版印刷",
+              "autosub": 0
+            },
+            {
+              "tid": 756,
+              "parent": 630,
+              "depth": 3,
+              "name": "孔版印刷",
+              "autosub": 0
+            }
+          ]
+        },
+        {
+          "tid": 631,
+          "parent": 519,
+          "depth": 2,
+          "name": "造纸",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 757,
+              "parent": 631,
+              "depth": 3,
+              "name": "印刷用纸",
+              "autosub": 0
+            },
+            {
+              "tid": 758,
+              "parent": 631,
+              "depth": 3,
+              "name": "书写、制图及复制用纸",
+              "autosub": 0
+            },
+            {
+              "tid": 759,
+              "parent": 631,
+              "depth": 3,
+              "name": "包装用纸",
+              "autosub": 0
+            },
+            {
+              "tid": 760,
+              "parent": 631,
+              "depth": 3,
+              "name": "生活、卫生及装饰用纸",
+              "autosub": 0
+            },
+            {
+              "tid": 761,
+              "parent": 631,
+              "depth": 3,
+              "name": "技术用纸",
+              "autosub": 0
+            },
+            {
+              "tid": 762,
+              "parent": 631,
+              "depth": 3,
+              "name": "加工纸原纸",
+              "autosub": 0
+            }
+          ]
+        },
+        {
+          "tid": 632,
+          "parent": 519,
+          "depth": 2,
+          "name": "包装",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 763,
+              "parent": 632,
+              "depth": 3,
+              "name": "食品包装",
+              "autosub": 0
+            },
+            {
+              "tid": 764,
+              "parent": 632,
+              "depth": 3,
+              "name": "医药包装",
+              "autosub": 0
+            },
+            {
+              "tid": 765,
+              "parent": 632,
+              "depth": 3,
+              "name": "日化包装",
+              "autosub": 0
+            },
+            {
+              "tid": 766,
+              "parent": 632,
+              "depth": 3,
+              "name": "物流包装",
+              "autosub": 0
+            },
+            {
+              "tid": 767,
+              "parent": 632,
+              "depth": 3,
+              "name": "礼品包装",
+              "autosub": 0
+            },
+            {
+              "tid": 768,
+              "parent": 632,
+              "depth": 3,
+              "name": "电子五金包装",
+              "autosub": 0
+            }
+          ]
+        },
+        {
+          "tid": 633,
+          "parent": 519,
+          "depth": 2,
+          "name": "原材料及加工",
+          "autosub": 0
+        }
+      ]
+    },
+    {
+      "tid": 520,
+      "parent": 0,
+      "depth": 1,
+      "name": "交通物流",
+      "autosub": 0,
+      "child": [
+        {
+          "tid": 634,
+          "parent": 520,
+          "depth": 2,
+          "name": "物流",
+          "autosub": 0
+        },
+        {
+          "tid": 635,
+          "parent": 520,
+          "depth": 2,
+          "name": "仓储",
+          "autosub": 0
+        },
+        {
+          "tid": 636,
+          "parent": 520,
+          "depth": 2,
+          "name": "客运",
+          "autosub": 0
+        },
+        {
+          "tid": 637,
+          "parent": 520,
+          "depth": 2,
+          "name": "快递",
+          "autosub": 0
+        }
+      ]
+    },
+    {
+      "tid": 521,
+      "parent": 0,
+      "depth": 1,
+      "name": "国际贸易",
+      "autosub": 0,
+      "child": [
+        {
+          "tid": 684,
+          "parent": 521,
+          "depth": 2,
+          "name": "国际贸易",
+          "autosub": 0
+        },
+        {
+          "tid": 685,
+          "parent": 521,
+          "depth": 2,
+          "name": "海关",
+          "autosub": 0
+        }
+      ]
+    },
+    {
+      "tid": 522,
+      "parent": 0,
+      "depth": 1,
+      "name": "医药",
+      "autosub": 0,
+      "child": [
+        {
+          "tid": 638,
+          "parent": 522,
+          "depth": 2,
+          "name": "化学药",
+          "autosub": 0
+        },
+        {
+          "tid": 639,
+          "parent": 522,
+          "depth": 2,
+          "name": "中药",
+          "autosub": 0
+        },
+        {
+          "tid": 640,
+          "parent": 522,
+          "depth": 2,
+          "name": "生物制药",
+          "autosub": 0
+        },
+        {
+          "tid": 641,
+          "parent": 522,
+          "depth": 2,
+          "name": "兽药",
+          "autosub": 0
+        },
+        {
+          "tid": 642,
+          "parent": 522,
+          "depth": 2,
+          "name": "农药",
+          "autosub": 0
+        },
+        {
+          "tid": 643,
+          "parent": 522,
+          "depth": 2,
+          "name": "CRO",
+          "autosub": 0
+        },
+        {
+          "tid": 644,
+          "parent": 522,
+          "depth": 2,
+          "name": "消毒",
+          "autosub": 0
+        },
+        {
+          "tid": 645,
+          "parent": 522,
+          "depth": 2,
+          "name": "医药商业",
+          "autosub": 0
+        },
+        {
+          "tid": 646,
+          "parent": 522,
+          "depth": 2,
+          "name": "医疗服务",
+          "autosub": 0
+        }
+      ]
+    },
+    {
+      "tid": 523,
+      "parent": 0,
+      "depth": 1,
+      "name": "医疗器械",
+      "autosub": 0,
+      "child": [
+        {
+          "tid": 647,
+          "parent": 523,
+          "depth": 2,
+          "name": "医疗器械",
+          "autosub": 0
+        },
+        {
+          "tid": 648,
+          "parent": 523,
+          "depth": 2,
+          "name": "制药设备",
+          "autosub": 0
+        },
+        {
+          "tid": 649,
+          "parent": 523,
+          "depth": 2,
+          "name": "医用耗材",
+          "autosub": 0
+        },
+        {
+          "tid": 650,
+          "parent": 523,
+          "depth": 2,
+          "name": "手术器械",
+          "autosub": 0
+        }
+      ]
+    },
+    {
+      "tid": 524,
+      "parent": 0,
+      "depth": 1,
+      "name": "保健品",
+      "autosub": 0,
+      "child": [
+        {
+          "tid": 651,
+          "parent": 524,
+          "depth": 2,
+          "name": "保健器材",
+          "autosub": 0
+        },
+        {
+          "tid": 652,
+          "parent": 524,
+          "depth": 2,
+          "name": "性保健品",
+          "autosub": 0
+        },
+        {
+          "tid": 653,
+          "parent": 524,
+          "depth": 2,
+          "name": "医药保养",
+          "autosub": 0
+        },
+        {
+          "tid": 654,
+          "parent": 524,
+          "depth": 2,
+          "name": "医用保健",
+          "autosub": 0
+        }
+      ]
+    },
+    {
+      "tid": 525,
+      "parent": 0,
+      "depth": 1,
+      "name": "服务业",
+      "autosub": 0,
+      "child": [
+        {
+          "tid": 564,
+          "parent": 525,
+          "depth": 2,
+          "name": "翻译",
+          "autosub": 0
+        },
+        {
+          "tid": 655,
+          "parent": 525,
+          "depth": 2,
+          "name": "酒店",
+          "autosub": 0
+        },
+        {
+          "tid": 656,
+          "parent": 525,
+          "depth": 2,
+          "name": "餐饮",
+          "autosub": 0
+        },
+        {
+          "tid": 657,
+          "parent": 525,
+          "depth": 2,
+          "name": "旅游",
+          "autosub": 0
+        },
+        {
+          "tid": 658,
+          "parent": 525,
+          "depth": 2,
+          "name": "生活服务",
+          "autosub": 0
+        },
+        {
+          "tid": 659,
+          "parent": 525,
+          "depth": 2,
+          "name": "保健按摩",
+          "autosub": 0
+        },
+        {
+          "tid": 660,
+          "parent": 525,
+          "depth": 2,
+          "name": "运动健身",
+          "autosub": 0
+        },
+        {
+          "tid": 661,
+          "parent": 525,
+          "depth": 2,
+          "name": "家政服务",
+          "autosub": 0
+        },
+        {
+          "tid": 662,
+          "parent": 525,
+          "depth": 2,
+          "name": "婚庆服务",
+          "autosub": 0
+        },
+        {
+          "tid": 663,
+          "parent": 525,
+          "depth": 2,
+          "name": "租赁服务",
+          "autosub": 0
+        },
+        {
+          "tid": 664,
+          "parent": 525,
+          "depth": 2,
+          "name": "维修服务",
+          "autosub": 0
+        },
+        {
+          "tid": 769,
+          "parent": 525,
+          "depth": 2,
+          "name": "汽车服务",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 770,
+              "parent": 769,
+              "depth": 3,
+              "name": "汽车保养",
+              "autosub": 0
+            },
+            {
+              "tid": 771,
+              "parent": 769,
+              "depth": 3,
+              "name": "租车",
+              "autosub": 0
+            },
+            {
+              "tid": 773,
+              "parent": 769,
+              "depth": 3,
+              "name": "出租车",
+              "autosub": 0
+            },
+            {
+              "tid": 774,
+              "parent": 769,
+              "depth": 3,
+              "name": "代驾",
+              "autosub": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tid": 526,
+      "parent": 0,
+      "depth": 1,
+      "name": "能源",
+      "autosub": 0,
+      "child": [
+        {
+          "tid": 665,
+          "parent": 526,
+          "depth": 2,
+          "name": "石油天然气",
+          "autosub": 0
+        },
+        {
+          "tid": 666,
+          "parent": 526,
+          "depth": 2,
+          "name": "电力",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 775,
+              "parent": 666,
+              "depth": 3,
+              "name": "发电",
+              "autosub": 0,
+              "child": [
+                {
+                  "tid": 789,
+                  "parent": 775,
+                  "depth": 4,
+                  "name": "锅炉",
+                  "autosub": 0
+                },
+                {
+                  "tid": 790,
+                  "parent": 775,
+                  "depth": 4,
+                  "name": "发电机",
+                  "autosub": 0
+                },
+                {
+                  "tid": 791,
+                  "parent": 775,
+                  "depth": 4,
+                  "name": "汽轮机",
+                  "autosub": 0
+                },
+                {
+                  "tid": 792,
+                  "parent": 775,
+                  "depth": 4,
+                  "name": "燃机",
+                  "autosub": 0
+                },
+                {
+                  "tid": 793,
+                  "parent": 775,
+                  "depth": 4,
+                  "name": "冷却",
+                  "autosub": 0
+                },
+                {
+                  "tid": 794,
+                  "parent": 775,
+                  "depth": 4,
+                  "name": "电力设计院",
+                  "autosub": 0
+                }
+              ]
+            },
+            {
+              "tid": 777,
+              "parent": 666,
+              "depth": 3,
+              "name": "输配电",
+              "autosub": 0,
+              "child": [
+                {
+                  "tid": 795,
+                  "parent": 777,
+                  "depth": 4,
+                  "name": "高压输配电",
+                  "autosub": 0
+                },
+                {
+                  "tid": 796,
+                  "parent": 777,
+                  "depth": 4,
+                  "name": "中压输配电",
+                  "autosub": 0
+                },
+                {
+                  "tid": 797,
+                  "parent": 777,
+                  "depth": 4,
+                  "name": "低压输配电",
+                  "autosub": 0
+                },
+                {
+                  "tid": 798,
+                  "parent": 777,
+                  "depth": 4,
+                  "name": "继电保护",
+                  "autosub": 0
+                },
+                {
+                  "tid": 799,
+                  "parent": 777,
+                  "depth": 4,
+                  "name": "智能电网",
+                  "autosub": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tid": 667,
+          "parent": 526,
+          "depth": 2,
+          "name": "新能源",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 779,
+              "parent": 667,
+              "depth": 3,
+              "name": "风电",
+              "autosub": 0
+            },
+            {
+              "tid": 780,
+              "parent": 667,
+              "depth": 3,
+              "name": "光伏/太阳能",
+              "autosub": 0
+            },
+            {
+              "tid": 781,
+              "parent": 667,
+              "depth": 3,
+              "name": "生物质发电",
+              "autosub": 0
+            },
+            {
+              "tid": 782,
+              "parent": 667,
+              "depth": 3,
+              "name": "煤化工",
+              "autosub": 0
+            },
+            {
+              "tid": 783,
+              "parent": 667,
+              "depth": 3,
+              "name": "垃圾发电",
+              "autosub": 0
+            },
+            {
+              "tid": 784,
+              "parent": 667,
+              "depth": 3,
+              "name": "核电",
+              "autosub": 0
+            }
+          ]
+        },
+        {
+          "tid": 668,
+          "parent": 526,
+          "depth": 2,
+          "name": "水利",
+          "autosub": 0
+        },
+        {
+          "tid": 669,
+          "parent": 526,
+          "depth": 2,
+          "name": "矿产",
+          "autosub": 0,
+          "child": [
+            {
+              "tid": 785,
+              "parent": 669,
+              "depth": 3,
+              "name": "能源矿产",
+              "autosub": 0
+            },
+            {
+              "tid": 786,
+              "parent": 669,
+              "depth": 3,
+              "name": "金属矿产",
+              "autosub": 0
+            },
+            {
+              "tid": 787,
+              "parent": 669,
+              "depth": 3,
+              "name": "非金属矿产",
+              "autosub": 0
+            },
+            {
+              "tid": 788,
+              "parent": 669,
+              "depth": 3,
+              "name": "水气矿产",
+              "autosub": 0
+            }
+          ]
+        },
+        {
+          "tid": 670,
+          "parent": 526,
+          "depth": 2,
+          "name": "采掘业",
+          "autosub": 0
+        },
+        {
+          "tid": 671,
+          "parent": 526,
+          "depth": 2,
+          "name": "冶炼",
+          "autosub": 0
+        },
+        {
+          "tid": 672,
+          "parent": 526,
+          "depth": 2,
+          "name": "环保",
+          "autosub": 0
+        }
+      ]
+    },
+    {
+      "tid": 527,
+      "parent": 0,
+      "depth": 1,
+      "name": "化工",
+      "autosub": 0,
+      "child": [
+        {
+          "tid": 673,
+          "parent": 527,
+          "depth": 2,
+          "name": "无机化工原料",
+          "autosub": 0
+        },
+        {
+          "tid": 674,
+          "parent": 527,
+          "depth": 2,
+          "name": "有机化工原料",
+          "autosub": 0
+        },
+        {
+          "tid": 675,
+          "parent": 527,
+          "depth": 2,
+          "name": "精细化学品",
+          "autosub": 0
+        },
+        {
+          "tid": 676,
+          "parent": 527,
+          "depth": 2,
+          "name": "化工设备",
+          "autosub": 0
+        },
+        {
+          "tid": 677,
+          "parent": 527,
+          "depth": 2,
+          "name": "化工工程",
+          "autosub": 0
+        }
+      ]
+    },
+    {
+      "tid": 528,
+      "parent": 0,
+      "depth": 1,
+      "name": "政府",
+      "autosub": 0
+    },
+    {
+      "tid": 529,
+      "parent": 0,
+      "depth": 1,
+      "name": "公共事业",
+      "autosub": 0
+    },
+    {
+      "tid": 530,
+      "parent": 0,
+      "depth": 1,
+      "name": "非盈利机构",
+      "autosub": 0
+    },
+    {
+      "tid": 531,
+      "parent": 0,
+      "depth": 1,
+      "name": "农业",
+      "autosub": 0
+    },
+    {
+      "tid": 532,
+      "parent": 0,
+      "depth": 1,
+      "name": "林业",
+      "autosub": 0
+    },
+    {
+      "tid": 533,
+      "parent": 0,
+      "depth": 1,
+      "name": "畜牧业",
+      "autosub": 0
+    },
+    {
+      "tid": 534,
+      "parent": 0,
+      "depth": 1,
+      "name": "渔业",
+      "autosub": 0
+    },
+    {
+      "tid": 535,
+      "parent": 0,
+      "depth": 1,
+      "name": "学术科研",
+      "autosub": 0
+    },
+    {
+      "tid": 536,
+      "parent": 0,
+      "depth": 1,
+      "name": "零售",
+      "autosub": 0,
+      "child": [
+        {
+          "tid": 686,
+          "parent": 536,
+          "depth": 2,
+          "name": "购物中心",
+          "autosub": 0
+        },
+        {
+          "tid": 687,
+          "parent": 536,
+          "depth": 2,
+          "name": "超市",
+          "autosub": 0
+        },
+        {
+          "tid": 688,
+          "parent": 536,
+          "depth": 2,
+          "name": "便利店",
+          "autosub": 0
+        },
+        {
+          "tid": 689,
+          "parent": 536,
+          "depth": 2,
+          "name": "专卖店",
+          "autosub": 0
+        },
+        {
+          "tid": 690,
+          "parent": 536,
+          "depth": 2,
+          "name": "专业店",
+          "autosub": 0
+        },
+        {
+          "tid": 691,
+          "parent": 536,
+          "depth": 2,
+          "name": "百货店",
+          "autosub": 0
+        },
+        {
+          "tid": 692,
+          "parent": 536,
+          "depth": 2,
+          "name": "杂货店",
+          "autosub": 0
+        }
+      ]
+    }
+  ]
+}

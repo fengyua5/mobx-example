@@ -5,6 +5,8 @@ import {observer, inject} from 'mobx-react';
 import {Link} from 'react-router';
 import Header from './components/Header';
 const userjson = require("../api/user.json");
+const children = require("../api/children.json");
+const industry = require("../api/industry.json");
 const { normalize, schema } = require('normalizr');
 
 @observer
@@ -13,24 +15,20 @@ class App extends Component {
   constructor(props){
     super(props);
 
-
-    // Define a users schema
-    const user = new schema.Entity('users');
-
-    // Define your comments schema
-    const comment = new schema.Entity('comments', {
-      commenter: user
+    let user = new schema.Entity('users');
+    user.define({
+      parent: user
     });
 
-    // Define your article
-    const article = new schema.Entity('articles', {
-      author: user,
-      comments: [ comment ]
+    console.log(normalize(children, user), '----------------kkk');
+
+    let entity = new schema.Entity('industrys', undefined, {idAttribute: 'tid'});
+
+    entity.define({
+      child: [entity]
     });
 
-    const normalizedData = normalize(userjson, article);
-
-    console.log(normalizedData)
+    console.log(normalize(industry, { results: [entity]}), '----------------industrys');
 
   }
 
