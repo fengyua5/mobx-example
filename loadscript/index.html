@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button id="button">加载文件</button>
+<script src="../node_modules/bluebird/js/browser/bluebird.min.js"></script>
+<script src="loadScript.js"></script>
+<script>
+    document.getElementById('button').onclick = function(){
+      console.log('button click');
+      // loadScript('./hello.js', function () {
+      //   console.log('load done')
+      // })
+      _myImport('./hello.js').then(function (data) {
+        console.log('load done')
+      })
+    };
+
+</script>
+</body>
+</html>

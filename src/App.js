@@ -5,14 +5,14 @@ import {observer, inject} from 'mobx-react';
 import {Link} from 'react-router';
 import Header from './components/Header';
 const userjson = require("../api/user.json");
-
+const { normalize, schema } = require('normalizr');
 
 @observer
 class App extends Component {
 
   constructor(props){
     super(props);
-    const { normalize, schema } = require('normalizr');
+
 
     // Define a users schema
     const user = new schema.Entity('users');
