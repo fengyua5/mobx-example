@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import store from './store/index.js';
-import routers from './router.js';
 import {Provider} from 'mobx-react';
 import {BrowserRouter, Route, Link, Switch} from 'react-router-dom';
 import {configure} from "mobx";
@@ -53,7 +52,7 @@ ReactDOM.render(
           <Route exact path="/" component={Index}/>
           <Route exact path="/app" component={Loadable({
             loader: () => {
-              return import(/* webpackChunkName: "app1" */'./App.js');
+              return import(/* webpackChunkName: "sdsdsd" */'./App.js');
             },
             loading: Loading
           })}/>

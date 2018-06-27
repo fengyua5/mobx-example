@@ -37,7 +37,6 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-loadable": "^5.4.0",
-    "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "shelljs": "^0.8.2",
     "style-loader": "^0.19.1",
